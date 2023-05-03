@@ -291,10 +291,10 @@ export default function Layout({ title, description, children }) {
          <NextLink NextLink href="/about" passHref><Link>Testimonial</Link></NextLink>●●●
            {/* 🔔 Customer Care :<WhatsAppIcon sx={classes.whatsapp} /> +546(435) 67889  🔔<ArrowRightAltIcon/>  */}
            <NextLink NextLink href="/contact" passHref><Link>Contact</Link></NextLink>●●●
-           <NextLink NextLink href="/contact" passHref><Link>Info</Link></NextLink>●●●
-           <NextLink NextLink href="/contact" passHref><Link>Services</Link></NextLink>●●●
-           <NextLink NextLink href="/contact" passHref><Link>Shop</Link></NextLink>●●●
-           <NextLink NextLink href="/contact" passHref><Link>Contact</Link></NextLink>●●●
+           <NextLink NextLink href="/search" passHref><Link>Info</Link></NextLink>●●●
+           {/* <NextLink NextLink href="/search" passHref><Link>Services</Link></NextLink>●●●
+           <NextLink NextLink href="/search" passHref><Link>Shop</Link></NextLink>●●● */}
+           {/* <NextLink NextLink href="/contact" passHref><Link>Contact</Link></NextLink>●●● */}
            
            <NextLink NextLink href="/about" passHref><Link>About</Link></NextLink>
         </Typography>
@@ -307,17 +307,17 @@ export default function Layout({ title, description, children }) {
           <Typography>Location:<LocationOnIcon/> Located in Brooklyn, New York.</Typography>
           <Typography>Address:<HomeIcon/> 1690 80th street Brooklyn NY 11214</Typography>
           {/* <Typography>All rights reserved. Sanity Amazona.</Typography> */}
-          <NextLink href="/" passHref>
+          <NextLink href="https://www.linkedin.com/" target='__blank' passHref>
              <Link>
               <FacebookIcon sx={classes.facebook} />
             </Link>
           </NextLink>
-          <NextLink href="hgghjkkkk" target='_blank' passHref>
+          <NextLink href="https://www.linkedin.com/" target='__blank' passHref>
              <Link>
              <InstagramIcon sx={classes.instagram} />
             </Link>
           </NextLink>
-          <NextLink href="FFFGJdhj" passHref>
+          <NextLink href="https://www.linkedin.com/" target='_blank' passHref>
              <Link>
              <TwitterIcon sx={classes.twitter} />
             </Link>

@@ -114,10 +114,14 @@ export default function ProductScreen(props) {
                 <ListItem>Brand: {product.brand}</ListItem> */}
                <ListItem>Category: {product.category}</ListItem>
                 {/* <ListItem>Brand: {product.brand}</ListItem> */}
-                <ListItem>Sex: {product.sex}</ListItem>
-                <ListItem>Age: {product.age}</ListItem>
-                <ListItem>Height: {product.height}</ListItem>
-                <ListItem>Lifespan: {product.lifespan}</ListItem>
+                <ListItem>●Cake Flavour: {product.cakeflavour}</ListItem>
+                <ListItem>●Cake Type: {product.caketype}</ListItem>
+                <ListItem>●Weight: {product.weight}</ListItem>
+                {/* <ListItem>●Packaging: {product.age}</ListItem> */}
+                <ListItem>●Shape: {product.shape}</ListItem>
+                <ListItem>●Serves: {product.serves}</ListItem>
+                <ListItem>●Size: {product.size}</ListItem>
+                {/* <ListItem>●Lifespan: {product.lifespan}</ListItem> */}
                 <ListItem>
                   <Rating value={product.rating} readOnly></Rating>
                   <Typography sx={classes.smallText}>

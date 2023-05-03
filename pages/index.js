@@ -72,14 +72,14 @@ export default function Home() {
       ) : error ? (
         <Alert variant="danger">{error}</Alert>
       ) : (
-        <Grid container spacing={3}>
+        <Grid container spacing={1}>
           {products.map((product) => (
-            <Grid item md={4} key={product.slug}>
+            <Grid item md={2} key={product.slug}>
               <ProductItem
                 product={product}
                 addToCartHandler={addToCartHandler}
               ></ProductItem>
-              <Typography className='shippingg'>free shipping</Typography>
+              {/* <Typography className='shippingg'>free shipping</Typography> */}
             </Grid>
           ))}
         </Grid>

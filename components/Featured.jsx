@@ -6,8 +6,18 @@ const Featured = () => {
   const [index, setIndex] = useState(0);
   const images = [
     "/img/featured.png",
+    "/img/featured1.png",
     "/img/featured2.png",
     "/img/featured3.png",
+    "/img/featured4.png",
+    "/img/featured5.png",
+    "/img/featured6.png",
+    "/img/featured7.png",
+    "/img/featured8.png",
+    "/img/featured9.png",
+    "/img/featured7.png",
+    "/img/featured8.png",
+    "/img/featured9.png",
   ];
 
   const handleArrow = (direction) =>{

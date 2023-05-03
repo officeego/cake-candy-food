@@ -41,18 +41,33 @@ export default {
     //   type: 'string',
     // },
     {
-      name: 'sex',
-      title: 'Sex',
+      name: 'cakeflavour',
+      title: 'Cake Flavour',
       type: 'string',
     },
     {
-      name: 'age',
-      title: 'Age',
+      name: 'caketype',
+      title: 'Cake Type',
       type: 'string',
     },
     {
-      name: 'height',
-      title: 'Height',
+      name: 'weight',
+      title: 'Weight',
+      type: 'string',
+    },
+    {
+      name: 'shape',
+      title: 'Shape',
+      type: 'string',
+    },
+    {
+      name: 'serves',
+      title: 'Serves',
+      type: 'string',
+    },
+    {
+      name: 'size',
+      title: 'Size',
       type: 'string',
     },
     {

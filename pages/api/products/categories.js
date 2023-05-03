@@ -3,7 +3,7 @@ import nc from 'next-connect';
 const handler = nc();
 
 handler.get(async (req, res) => {
-  const categories = ['Afghan Hound', 'Akita Dog', 'Chow Chow', 'Samoyed', 'Tibetan Mastiff', 'Rottweiler','Afghan Hound','French Bulldog', 'English Bulldog', 'Yorkie Puppy', 'German Shepherd', 'New Foundland', 'Saint Bernard', 'Biewer Terrier', 'Russian Terrier'];
+  const categories = ['Anniversary', 'Happy Birthday', 'Baby Shower', 'Buttercream', 'Christening', 'Christmas','Happy Party', 'Cupcakes','Happy Easter', 'Fathers Day', 'Mothers Day', 'Graduation', 'Retirement', 'Wedding Day', 'Valentines', 'Travel', 'Halloween', 'Breakfast'];
   res.send(categories);
 });
 
