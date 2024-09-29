@@ -47,6 +47,7 @@ import axios from 'axios';
 import { useSnackbar } from 'notistack';
 import { getError } from '../utils/error';
 import Footer from './Footer';
+import Image from "next/image";
 
 export default function Layout({ title, description, children }) {
   const router = useRouter();
@@ -161,7 +162,8 @@ export default function Layout({ title, description, children }) {
               </IconButton>
               <NextLink href="/" passHref>
                 <Link>
-                  <Typography sx={classes.brand}>Wirngo</Typography>
+                  {/* <Typography sx={classes.brand}>Wirngo</Typography> */}
+                  <Typography style={{borderRadius: '50px', overflow: 'hidden'}}>  <Image src="/img/featured5.png" alt="" width='50px' height='50PX'/></Typography>
                 </Link>
               </NextLink>
             </Box>
@@ -210,7 +212,7 @@ export default function Layout({ title, description, children }) {
                   <InputBase
                     name="query"
                     sx={classes.searchInput}
-                    placeholder="Search products"
+                    placeholder="search for cake"
                     onChange={queryChangeHandler}
                   />
                   <IconButton
@@ -223,7 +225,7 @@ export default function Layout({ title, description, children }) {
                 </Box>
               </form>
             </Box>
-
+            {/* <Typography>📞 6(743)26329</Typography> */}
             <Box>
               <Switch
                 checked={darkMode}
@@ -288,25 +290,28 @@ export default function Layout({ title, description, children }) {
           </Toolbar>
         </AppBar>
         <Typography sx={classes.customercare} >
-         <NextLink NextLink href="/about" passHref><Link>Testimonial</Link></NextLink>●●●
+        
            {/* 🔔 Customer Care :<WhatsAppIcon sx={classes.whatsapp} /> +546(435) 67889  🔔<ArrowRightAltIcon/>  */}
-           <NextLink NextLink href="/contact" passHref><Link>Contact</Link></NextLink>●●●
-           <NextLink NextLink href="/search" passHref><Link>Info</Link></NextLink>●●●
+           {/* <NextLink NextLink href="/contact" passHref><Link>Contact</Link></NextLink>●●●
+           <NextLink NextLink href="/search" passHref><Link>Info</Link></NextLink>●●● */}
+           
            {/* <NextLink NextLink href="/search" passHref><Link>Services</Link></NextLink>●●●
            <NextLink NextLink href="/search" passHref><Link>Shop</Link></NextLink>●●● */}
-           {/* <NextLink NextLink href="/contact" passHref><Link>Contact</Link></NextLink>●●● */}
-           
-           <NextLink NextLink href="/about" passHref><Link>About</Link></NextLink>
+           {/* <NextLink NextLink href="/contact" passHref><Link>Contact</Link></NextLink>●●● */}          
+           <NextLink NextLink href="/about" passHref><Link>About</Link></NextLink>●●●
+         <Typography className='contactn'> <NextLink NextLink href="/about" passHref><Link>📞 6 (743) 26329</Link></NextLink></Typography> 
         </Typography>
         
         <Container component="main" sx={classes.main}>
           {children}
         </Container>
+        
         <Box component="footer" sx={classes.footer}>
         <Typography>Email:<MarkEmailReadIcon/> suppups@gmail.com</Typography>
           <Typography>Location:<LocationOnIcon/> Located in Brooklyn, New York.</Typography>
           <Typography>Address:<HomeIcon/> 1690 80th street Brooklyn NY 11214</Typography>
           {/* <Typography>All rights reserved. Sanity Amazona.</Typography> */}
+          
           <NextLink href="https://www.linkedin.com/" target='__blank' passHref>
              <Link>
               <FacebookIcon sx={classes.facebook} />
@@ -323,7 +328,8 @@ export default function Layout({ title, description, children }) {
             </Link>
           </NextLink>
           <Footer />
-          <Typography>All rights reserved SupPupps 2023.</Typography>
+          <Image sx={classes.paypal}src="/img/paypal.png" alt="" width='200px' height='50PX'/>
+          <Typography>All rights reserved CakeShop 2023.</Typography>
         </Box>
       </ThemeProvider>
     </>

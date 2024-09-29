@@ -22,6 +22,8 @@ const classes = {
   //
   facebook: {
     color: 'blue',
+    backgroundColor: 'green',
+    borderRadius:'10%'
 
   },
   instagram: {
@@ -37,7 +39,7 @@ const classes = {
     display: 'flex',
     justifyContent: 'center',
     // textAlign: 'center',
-    backgroundColor: 'darkgray',
+    backgroundColor: 'white',
     padding: '8px',
     boxShadow: '30px 30px 30px',
     fontWeight: 'bold',
@@ -50,7 +52,7 @@ const classes = {
   //
   appbar: {
     // backgroundColor: '#203040',
-    backgroundColor: 'gray',
+    backgroundColor: 'white',
     // backgroundColor: '#09353d',
     // position:'fixed',
     // zIndex: '1',
@@ -99,7 +101,7 @@ const classes = {
 
   searchForm: {
     border: '1px solid #ffffff',
-    backgroundColor: '#ffffff',
+    backgroundColor: 'pink',
     // borderRadius: 1,
     borderRadius: 5,
   },
@@ -112,11 +114,13 @@ const classes = {
     },
   },
   searchButton: {
-    backgroundColor: '#f8c040',
+    backgroundColor: 'wheat',
+    // backgroundColor: '#f8c040',
     color:'green',
     padding: 1,
     // borderRadius: '0 5px 5px 0',
     borderRadius: 5,
+    boxShadow: 4,
     '& span': {
       color: '#000000',
     },

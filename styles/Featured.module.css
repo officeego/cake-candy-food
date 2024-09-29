@@ -1,6 +1,8 @@
 .container {
-  height: calc(100vh - 100px);
+  /* height: calc(100vh - 100px); */
+  height: 60vh;
   background-color: white;
+  /* background-image: url("../public/img/featuredbg.png"); */
   overflow: hidden;
   position: relative;
   border-radius: 50px;
@@ -30,6 +32,10 @@
   width: 100vw;
   height: 100%;
   position: relative;
+}
+
+.imgContainer:hover{
+ opacity: 0.5;
 }
 
 @media screen and (max-width: 480px) {

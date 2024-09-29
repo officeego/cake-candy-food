@@ -10,6 +10,7 @@ import { urlForThumbnail } from '../utils/image';
 import { Store } from '../utils/Store';
 import Image from "next/image";
 import Featured from '../components/Featured';
+import Desc from '../components/Desc';
 
 export default function Home() {
   const {
@@ -66,6 +67,7 @@ export default function Home() {
   return (
     <Layout>
       <Featured />
+      <Desc />
       {/* <Image className='imgs' src="/img/p1.jpg" width="900" height="200" alt="" /> */}
       {loading ? (
         <CircularProgress />
@@ -74,7 +76,7 @@ export default function Home() {
       ) : (
         <Grid container spacing={1}>
           {products.map((product) => (
-            <Grid item md={2} key={product.slug}>
+            <Grid className="indexhome" item md={2} key={product.slug}>
               <ProductItem
                 product={product}
                 addToCartHandler={addToCartHandler}

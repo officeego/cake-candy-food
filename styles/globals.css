@@ -42,6 +42,38 @@ a {
   border-radius: 40px;
   
 }
+/* // */
+.desc{
+  /* background-color: red; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  border-radius: 40px;
+}
+
+/* // */
+.indexhome{
+  /* background-color: red; */
+}
+
+.indexhome:hover{
+  box-shadow: 3px 3px 3px wheat;
+  border-radius: 10px;
+}
+/* // */
+.paypal{
+  text-align: center;
+}
+
+.deschead {
+  text-align: center;
+  box-shadow: 7px 7px 7px 7px;
+  color: pink;
+  justify-content: center;
+  align-items: center;
+}
+
 .backbutton{
   margin: 10px;
   padding: 10px;

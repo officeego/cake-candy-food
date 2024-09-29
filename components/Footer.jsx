@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className={styles.container}>
       <div className={styles.item}>
-        <Image src="/img/featured6.png" objectFit="cover" layout="fill" alt="" />
+        <Image src="/img/featured00.png" objectFit="cover" layout="fill" alt="" />
       </div>
       <div className={styles.item}>
         <div className={styles.card}>
@@ -25,7 +25,7 @@ const Footer = () => {
             <br /> NewYork, 85022
             <br /> (602) 867-1011
           </p>
-          <p className={styles.text}>
+          {/* <p className={styles.text}>
             1614 E. Erwin St #104.
             <br /> NewYork, 85022
             <br /> (602) 867-1012
@@ -34,7 +34,7 @@ const Footer = () => {
             1614 W. Caroll St #125.
             <br /> NewYork, 85022
             <br /> (602) 867-1013
-          </p>
+          </p> */}
         </div>
         <div className={styles.card}>
           <h1 className={styles.title}>WORKING HOURS</h1>
@@ -47,6 +47,20 @@ const Footer = () => {
             <br /> 12:00 – 24:00
           </p>
         </div>
+        <div className={styles.card}>
+          <h1 className={styles.title}>CONTACTS</h1>
+          <p className={styles.text}>
+          📞 6(743)26329
+          suppups@gmail.com
+            MONDAY UNTIL FRIDAY
+            <br /> 9:00 – 22:00
+          </p>
+          <p className={styles.text}>
+            SATURDAY - SUNDAY
+            <br /> 12:00 – 24:00
+          </p>
+        </div>
+        
       </div>
     </div>
   );
