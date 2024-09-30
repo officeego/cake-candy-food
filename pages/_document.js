@@ -8,6 +8,20 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+                {/* <link rel="icon" href="/favicon.ico" /> */}
+                <link rel="icon" href="/favicon.ico" sizes="any" />
+                <link
+                  rel="icon"
+                  href="/icon?<generated>"
+                  type="image/<generated>"
+                  sizes="<generated>"
+                  />
+                  <link
+                    rel="apple-touch-icon"
+                    href="/apple-icon?<generated>"
+                    type="image/<generated>"
+                    sizes="<generated>"
+                  />          
           <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"

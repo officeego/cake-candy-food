@@ -56,6 +56,7 @@ const classes = {
     // backgroundColor: '#09353d',
     // position:'fixed',
     // zIndex: '1',
+    marginRight:'8rem',
     '& a': {
       color: '#ffffff',
       marginLeft: 1,
@@ -69,8 +70,10 @@ const classes = {
     fontSize: '1.5rem',
   },
   navbarButton: {
-    color: '#ffffff',
+    color: 'gray',
     textTransform: 'initial',
+    fontSize: '2rem',
+    marginRight:'2rem',
   },
   fullWidth: {
     width: '100%',
@@ -101,7 +104,7 @@ const classes = {
 
   searchForm: {
     border: '1px solid #ffffff',
-    backgroundColor: 'pink',
+    backgroundColor: 'lightGreen',
     // borderRadius: 1,
     borderRadius: 5,
   },

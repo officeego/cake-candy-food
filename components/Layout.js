@@ -298,7 +298,7 @@ export default function Layout({ title, description, children }) {
            {/* <NextLink NextLink href="/search" passHref><Link>Services</Link></NextLink>●●●
            <NextLink NextLink href="/search" passHref><Link>Shop</Link></NextLink>●●● */}
            {/* <NextLink NextLink href="/contact" passHref><Link>Contact</Link></NextLink>●●● */}          
-           <NextLink NextLink href="/about" passHref><Link>About</Link></NextLink>●●●
+           <NextLink NextLink href="/about" passHref><Link>About Us</Link></NextLink>💠💠
          <Typography className='contactn'> <NextLink NextLink href="/about" passHref><Link>📞 6 (743) 26329</Link></NextLink></Typography> 
         </Typography>
         
