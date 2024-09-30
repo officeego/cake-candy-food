@@ -163,7 +163,7 @@ export default function Layout({ title, description, children }) {
               <NextLink href="/" passHref>
                 <Link>
                   {/* <Typography sx={classes.brand}>Wirngo</Typography> */}
-                  <Typography style={{borderRadius: '50px', overflow: 'hidden'}}>  <Image src="/img/featured5.png" alt="" width='50px' height='50PX'/></Typography>
+                  <Typography style={{borderRadius: '50px', overflow: 'hidden'}}>  <Image src="/img/featured5.png" alt="" width='30px' height='30PX'/></Typography>
                 </Link>
               </NextLink>
             </Box>
@@ -254,7 +254,7 @@ export default function Layout({ title, description, children }) {
                   <Button
                     aria-controls="simple-menu"
                     aria-haspopup="true"
-                    sx={classes.navbarButton}
+                    sx={classes.navbarButton1}
                     onClick={loginClickHandler}
                   >
                     {userInfo.name}
@@ -299,7 +299,7 @@ export default function Layout({ title, description, children }) {
            <NextLink NextLink href="/search" passHref><Link>Shop</Link></NextLink>●●● */}
            {/* <NextLink NextLink href="/contact" passHref><Link>Contact</Link></NextLink>●●● */}          
            <NextLink NextLink href="/about" passHref><Link>About Us</Link></NextLink>💠💠
-         <Typography className='contactn'> <NextLink NextLink href="/about" passHref><Link>📞 6 (743) 26329</Link></NextLink></Typography> 
+         <Typography className='contactn'> <NextLink NextLink href="/about" passHref>📞 6(743)26(329)</NextLink></Typography> 
         </Typography>
         
         <Container component="main" sx={classes.main}>

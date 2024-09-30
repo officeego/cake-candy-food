@@ -52,7 +52,7 @@ const classes = {
   //
   appbar: {
     // backgroundColor: '#203040',
-    backgroundColor: 'white',
+    backgroundColor: 'gray',
     // backgroundColor: '#09353d',
     // position:'fixed',
     // zIndex: '1',
@@ -70,10 +70,10 @@ const classes = {
     fontSize: '1.5rem',
   },
   navbarButton: {
-    color: 'gray',
+    color:'red',
     textTransform: 'initial',
-    fontSize: '2rem',
-    marginRight:'2rem',
+    fontSize: '1.5rem',
+    // marginRight:'2rem',
   },
   fullWidth: {
     width: '100%',
@@ -104,7 +104,7 @@ const classes = {
 
   searchForm: {
     border: '1px solid #ffffff',
-    backgroundColor: 'lightGreen',
+    backgroundColor: 'pink',
     // borderRadius: 1,
     borderRadius: 5,
   },
