@@ -329,7 +329,8 @@ export default function Layout({ title, description, children }) {
           </NextLink>
           <Footer />
           <Image sx={classes.paypal}src="/img/paypal.png" alt="" width='200px' height='50PX'/>
-          <Typography>All rights reserved CakeShop 2023.</Typography>
+          <Typography>Powered by EGO</Typography>
+          <Typography>All rights reserved CakeShop 2024.</Typography>
         </Box>
       </ThemeProvider>
     </>
